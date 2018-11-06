@@ -1,0 +1,335 @@
+body {
+    font-family: Gill Sans, Gill Sans MT, Calibri, sans-serif;
+}
+
+.footer-bg {
+    padding:25px;
+}
+
+.img-nav{
+    height:40px;
+    width:40px;
+}
+
+/*
+ * General
+ */
+
+.noUnderline,
+.noUnderline:focus,
+.noUnderline:hover {
+    text-decoration: none !important;
+}
+
+.underline {
+    text-decoration: underline !important;
+}
+
+.no-border{
+    border:0px solid !important;
+}
+
+.no-bg {
+    background:transparent !important;
+}
+
+.w-33 {
+    width:33% !important;
+}
+
+.py-75 {
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+
+.py-150 {
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+
+.pb-75 {
+    padding-bottom: 75px;
+}
+
+.pb-150 {
+    padding-bottom: 150px;
+}
+
+/*
+ * Colors
+ */
+.grey-10 {
+    background-color:#F8F8F8;
+}
+
+.grey-20 {
+    background-color:#F0F0F0;
+}
+
+.grey-70 {
+    background-color:#484848;
+}
+
+.navbar-dark .navbar-nav .nav-link{
+    color:rgba(255,255,255,.75);
+}
+
+.navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover{
+    color:#fff !important;
+}
+
+.alink-color{
+    color:rgba(255,255,255,.75) !important;
+    /*color:rgba(255,255,255,.5) !important;*/
+}
+.alink-color:hover,
+.alink-color:focus {
+    color:#fff !important;
+}
+
+a{
+    color:#343a40;
+}
+a:hover,
+a:focus {
+    color:#c0c2c3;
+    text-decoration: solid;
+}
+
+
+/*
+ * Navigator
+ */
+
+.btn-outline-cabo-lang {
+    color: rgba(255,255,255,.75);
+    background-color: transparent;
+    background-image: none;
+    border-color: rgba(255,255,255,.75);
+}
+
+.btn-outline-cabo-lang:focus,
+.btn-outline-cabo-lang:hover {
+    color: #212529;
+    background-color: #fff;
+    border-color: #fff;
+}
+
+.btn-outline-cabo {
+    color: rgba(0,0,0,.75);
+    background-color: transparent;
+    background-image: none;
+    border-color: rgba(0,0,0,.75);
+}
+
+.btn-outline-cabo:focus,
+.btn-outline-cabo:hover {
+    color: #fff;
+    background-color: #343a40;
+    border-color: #343a40;
+}
+
+.twitterNav {
+    background-size: 45px 45px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #343a40 !important;
+    width:100%;
+    height:45px;
+    line-height:45px;
+    padding-left: 45px;
+    background-image: url("../images/icons/twitter-square_w75.png");
+}
+.twitterNav:focus,
+.twitterNav:hover {
+    background-image: url("../images/icons/twitter-square_w.png");
+}
+
+.dropdown-menu-right-twitter {
+    right:0 !important;
+    left: auto !important;
+    width:300px;
+}
+
+
+/*
+ * Team
+ */
+#peopleList img{
+    margin-bottom:10px;
+}
+
+figure {
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+/*
+figure:hover img {
+    transition-duration: 0.8s;
+    opacity: 0.6;
+}
+*/
+
+figure figcaption {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 30%;
+    height: 50%;
+    opacity: 0;
+    transition-duration: 0.8s;
+    color: #fff;
+    margin-left:40px;
+}
+
+figure:hover figcaption {
+    transition-duration: 0.8s;
+    opacity: 1;
+}
+
+#peopleList a.active,
+#peopleList a.active >figure figcaption {
+    transition-duration: 0.8s;
+    opacity: 1;
+}
+
+#peopleList a {
+    opacity: 0.6;
+}
+
+
+/*
+ * carousel
+ */
+.scrollLeft {
+    /*background-repeat: no-repeat;*/
+    /*background-attachment: fixed;*/
+    background-image: url("../images/icons/arrow-left_b.png");
+    background-size: 36px 48px;
+    width: 36px;
+    height: 48px;
+}
+
+.scrollRight {
+    /*background-attachment: fixed;*/
+    /*background-position: center;*/
+    background-image: url("../images/icons/arrow-right_b.png");
+    background-size: 36px 48px;
+    width: 36px;
+    height: 48px;
+}
+
+.carousel-indicators li {
+    background-color: #c0c2c3;
+}
+
+.carousel-indicators .active {
+    background-color: #343a40;
+}
+
+#carousel-text{
+    height:210px;
+}
+
+
+/*
+ * Project
+ */
+ 
+.bottom-right{
+    bottom:15px;
+    right:15px;
+}
+
+/*
+ * Team
+ */
+
+#people-info {
+    height:600px;
+}
+
+/*
+ * Footer
+ */
+#footer h3 {
+    height:45px;
+    line-height:45px;
+}
+
+.follow-us{
+    background-size: 45px 45px;
+    background-repeat: no-repeat;
+    background-position: center;
+    width:100%;
+    height:45px;
+    line-height:45px;
+    padding-left: 45px;
+}
+
+.contact {
+    background-image: url("../images/icons/contact_w75.png");
+    background-size: 28px 28px;
+    background-position: left;
+}
+.contact2 {
+    background-size: 23px 23px;
+}
+.contact:focus,
+.contact:hover {
+    background-image: url("../images/icons/contact_w.png");
+}
+
+.twitter {
+    background-image: url("../images/icons/twitter-square_w75.png");
+}
+.twitter:focus,
+.twitter:hover {
+    background-image: url("../images/icons/twitter-square_w.png");
+}
+
+.github {
+    background-image: url("../images/icons/github-square_w75.png");
+}
+.github:focus,
+.github:hover {
+    background-image: url("../images/icons/github-square_w.png");
+}
+
+.facebook {
+    background-image: url("../images/icons/facebook-square_w75.png");
+}
+.facebook:focus,
+.facebook:hover {
+    background-image: url("../images/icons/facebook-square_w.png");
+}
+
+/*
+ * Extra big for Twitter Bootstrap
+ */
+@media screen and (min-width: 992px) {
+    #carousel-text{
+        height:110px;
+    }
+    #people-info {
+        height:300px;
+    }
+}
+@media screen and (min-width: 1400px) {
+  .container {
+    width: 1370px;
+  }
+}
+@media screen and (min-width: 1600px) {
+  .container {
+    width: 1570px;
+  }
+}
+@media screen and (min-width: 1900px) {
+  .container {
+    width: 1870px;
+  }
+}
+
